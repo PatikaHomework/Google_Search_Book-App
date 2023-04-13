@@ -8,10 +8,10 @@ import Products from './Components/Products'
 import Header from './Components/Header'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <div className="  w-full bg-white">
+    <div className=" mb-16 w-full h-fit bg-white">
       <Hero />
       <Products />
       <Header/>

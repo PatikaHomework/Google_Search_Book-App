@@ -16,12 +16,12 @@ function Product({ book }) {
                         <h5 className="mb-4 text-xl font-medium text-gray-500  text-center ">{book.volumeInfo.title}</h5>
                         <span className="ml-1 text-xl font-normal text-gray-500  line-clamp-6 mb-8 ">{book.volumeInfo.description}</span>
                         <div className='flex flex-col space-y-2  '>
-                            <span className="ml-1 text-md font-normal text-gray-500  underline underline-offset-8"> {book.volumeInfo.authors && `Yazarlar: ${book.volumeInfo.authors.join(', ')}`}</span>
-                            <span className="ml-1 text-md font-normal text-gray-500  underline underline-offset-8">{book.volumeInfo.publisher && `Publisher: ${book.volumeInfo.publisher}`} </span>
+                            <span className="ml-1 text-sm font-normal text-gray-500  underline underline-offset-8"> {book.volumeInfo.authors && `Yazarlar: ${book.volumeInfo.authors.join(', ')}`}</span>
+                            <span className="ml-1 text-sm font-normal text-gray-500  underline underline-offset-8">{book.volumeInfo.publisher && `Publisher: ${book.volumeInfo.publisher}`} </span>
                         </div>
                         <div className='absolute bottom-4 right-1 px-3 flex flex-row justify-between items-center  w-full '>
                             <span className='ml-1 text-md font-normal text-gray-500 '>{book.volumeInfo.publishedDate && ` ${book.volumeInfo.publishedDate}`}</span>
-                            <a className='border-b px-2 py-1 ' href={book.volumeInfo.previewLink}>DETAILS</a>
+                            <a className='border-b px-2 py-1 hover:text-teal-500' href={book.volumeInfo.previewLink}>DETAILS</a>
                         </div>
                     </div>
                 </div>
