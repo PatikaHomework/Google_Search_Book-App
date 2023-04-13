@@ -1,5 +1,5 @@
 import React from 'react'
-import { BiSearch } from 'react-icons/Bi';
+import SearchIcon from '@mui/icons-material/Search';
 import { useBook } from '../context/bookContext';
 function Hero() {
 
@@ -15,7 +15,7 @@ function Hero() {
 
                         <div className="relative ">
                             <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                                <BiSearch className='w-5 h-5 text-gray-500 ' />
+                                <SearchIcon className='w-5 h-5 text-gray-500 ' />
                             </div>
                             <input
                                 id="search"
