@@ -8,8 +8,6 @@ import Products from './Components/Products'
 import Header from './Components/Header'
 
 function App() {
-
-
   return (
     <div className=" mb-16 w-full h-fit bg-white">
       <Hero />
